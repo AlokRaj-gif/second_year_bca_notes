@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,7 +44,7 @@ footer {
     bottom: 0;
 }
 
-.siteh1 {
+/* .siteh1 {
     font-size:40px;
     font-weight:bold;
     text-align:center;
@@ -46,14 +53,14 @@ footer {
     color:white;
 
     /* background gradient matching your site colors */
-    background:linear-gradient(90deg,#1E40AF,#F4B400);
+    /* background:linear-gradient(90deg,#1E40AF,#F4B400); */
 
     /* animation */
-    animation:slideDown 1s ease-in-out;
-}
+    /* animation:slideDown 1s ease-in-out;
+} */
 
 /* slide animation */
-@keyframes slideDown{
+/* @keyframes slideDown{
     from{
         opacity:0;
         transform:translateY(-40px);
@@ -62,7 +69,7 @@ footer {
         opacity:1;
         transform:translateY(0);
     }
-}
+}  */
 
 /* hover effect */
 .header-title:hover{
@@ -161,4 +168,55 @@ main p {
 .btn-secondary:hover{
   background:#e0a800;
   color: black;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.header p {
+    margin-left: 250px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+.header a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover {
+    color: blue;
+}
+
+.container {
+    color: white;
+}
+
+.container img {
+    position: absolute;
+    z-index: -1;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container button {
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container button:hover {
+    transform: scale(1.05);
 }
