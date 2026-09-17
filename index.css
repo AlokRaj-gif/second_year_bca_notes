@@ -299,3 +299,83 @@ main p {
 .folder button {
     margin-right: 350px;
 }
+
+@media(max-width: 400px){
+    .header {
+        height: 60px;
+    }
+
+    .header p {
+        font-size: 12px;
+        margin: 0;
+        margin-left: 15px;
+    }
+
+    .header a {
+        display: none;
+    }
+
+    .hero {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .container button {
+        height: 50px;
+        width: 120px;
+    }
+
+    main > h1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    footer > p {
+        display: none;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-left: 80px;
+        margin-bottom: 5px;
+    }
+
+    .notes {
+        display: block;
+    }
+
+    .folder {
+        height: 100px;
+        width: 350px;
+    }
+
+    .folder h1 {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+
+    .folder p {
+        font-size: 12px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .folder button {
+        height: 30px;
+        width: 80px;
+        margin-left: 5px;
+        transform: translate(0px, -15px);
+    }
+}
