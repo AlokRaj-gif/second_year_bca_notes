@@ -62,8 +62,7 @@ footer div i {
 }
 
 footer div i:hover {
-    background-color: white;
-    color: #333;
+   transform: scale(1.1);
 }
 
 /* .siteh1 {
@@ -227,6 +226,8 @@ main p {
 
 .header a:hover {
     color: blue;
+    text-decoration: blue underline;
+    transform: scale(1.1);
 }
 
 .container {
@@ -277,8 +278,24 @@ main p {
 
 .folder {
     height: 150px;
-    width: 500px;
-    background-color: yellow;
+    width: 550px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
     border-radius: 10px;
     margin: 20px;
+    cursor: pointer;
+}
+
+.folder:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+.folder h1 {
+    font-size: 25px;
+    margin-right: 160px;
+    margin-top: 20px;
+}
+
+.folder button {
+    margin-right: 350px;
 }
